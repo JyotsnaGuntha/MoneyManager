@@ -1,0 +1,120 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 55px;
+  font-family: 'Roboto';
+}
+
+.money-mania {
+  background-color: #ffffff;
+  padding: 30px;
+  font-family: 'Roboto';
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-width: 950px;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+  border-radius: 12px;
+  min-height: 200px;
+}
+
+.hi-user {
+  color: #475569;
+  font-size: 28px;
+}
+
+.welcome-text {
+  color: #7e858e;
+  font-size: 18px;
+}
+
+.welcome-text span {
+  color: #0b69ff;
+}
+
+.transaction-section {
+  display: flex;
+  margin-top: 24px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.form-title,
+.history-title {
+  color: #334155;
+  font-weight: 500;
+  font-size: 28px;
+}
+.form {
+  flex: 0 0 40%;
+  padding: 30px 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+label {
+  font-size: 15px;
+}
+
+input {
+  font-size: 12px;
+}
+.history {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background-color: #f8fafc;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f1f5f9;
+  color: #334155;
+  border: 1px #7e858e solid;
+  margin: 2px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.transaction-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
